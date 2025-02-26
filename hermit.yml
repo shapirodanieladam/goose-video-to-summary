@@ -1,0 +1,12 @@
+bin/python-3.11.7 {
+    source = "https://www.python.org/ftp/python/3.11.7/python-3.11.7-macos11.pkg"
+    strip = 2
+    env = {
+        PATH = "${HERMIT_ENV}/bin:${PATH}"
+        PYTHONPATH = "${HERMIT_ENV}/lib/python3.11/site-packages"
+    }
+}
+
+packages {
+    python-3.11.7 = "latest"
+}
