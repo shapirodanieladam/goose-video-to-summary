@@ -1,3 +1,8 @@
 .DS_Store
 .hermit
 env
+
+# assets
+frames
+visual_*
+*_summary_*
